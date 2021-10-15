@@ -1,0 +1,55 @@
+/* load font */ 
+@font-face
+{
+	font-family: 'Inter', sans-serif;
+	src: url( '../font/Comfortaa/Comfortaa-VariableFont_wght.ttf' ) format( 'truetype' );
+}
+
+/* define colour */ 
+:root
+{
+	--dark-1: #2E3440;
+	--dark-2: #3B4252;
+	--dark-3: #434C5E;
+	--dark-4: #4C566A;
+
+	--light-1: #D8DEE9;
+	--light-2: #E5E9F0;
+	--light-3: #ECEFF4;
+
+	--primary: #5E81AC;
+	--secondary: #81A1C1;
+	--tertiary: #88C0D0;
+	--quaternary: #8FBCBB;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body 
+{
+	box-sizing: border-box;
+	width: 100vw;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: var( --light-3 );
+	color: var( --dark-1 );
+}
+
+.section
+{
+	box-sizing: border-box;
+	margin: 2rem;
+	padding: 2rem;
+	background-color: #FFFFFF;
+	border-radius: 2rem;;
+}
+
+.element 
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;;
+}
