@@ -1,8 +1,8 @@
 /* load font */ 
 @font-face
 {
-	font-family: Comfortaa;
-	src: url( '../font/Comfortaa/Comfortaa-VariableFont_wght.ttf' ) format( 'truetype' );
+	font-family: Inter;
+	src: url( '../font/Inter/Inter-VariableFont_slnt,wght.ttf' ) format( 'truetype' );
 }
 
 /* define colour */ 
@@ -29,12 +29,6 @@
 	STYLE GUIDE STYLING 
 	Default styling for the style guide 
  */
-html
-{
-	/*margin: 0;*/
-	/*width: 100vw;*/
-	/*max-width: 100%;*/
-}
 
 body 
 {
@@ -45,7 +39,7 @@ body
 	padding: 0;
 	background-color: var( --light-3 );
 	color: var( --dark-1 );
-	font-family: Comfortaa, sans-serif;
+	font-family: Inter, sans-serif;
 }
 
 .section
@@ -77,57 +71,59 @@ code
 	background-color: var( --light-1 );
 }
 
-.code-start
-{
-	border-radius: 1rem 1rem 0 0;
-}
-
-.code-end
-{
-	border-radius: 0 0 1rem 1rem;
-}
-
-.code-only
-{
-	border-radius: 1rem 1rem 1rem 1rem;
-}
-
 
 
 /*
- * Head banner
+ * header
  */ 
-.head-banner
+header
 {
+	padding: 1rem 1rem;
+
 	display: flex;
-	flex-flow: column wrap;
-	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: flex-start;
 	align-items: center;
-
-	max-width: 100vw;
-	margin: 2rem 0 2rem 0;
 }
 
-#style-guide
+/* logo */
+header > img
 {
-	margin: 1rem 0 1rem 0;
-	font-size: 3vw;	
-	color: var( --dark-2 );
+	width: 4rem;
 }
 
-#title 
+/* brand name */
+header > h1
 {
-	margin: 1rem 0 1rem 0;
-	font-size: 10vw;
+	margin: 0;
+	padding: 0 0.5rem;
+	font-size: 2rem;
+	font-variation-settings: 'wght' 800;
 }
 
-#subtitle 
+/* nav */
+header > nav
 {
-	margin: 1rem 0 1rem 0;
-	font-size: 3vw;
-	font-style: italic;
-	color: var( --dark-4 );
+	margin-left: auto;
 }
+
+header > nav > a
+{
+	text-decoration: none;
+
+	padding: 1rem;
+
+	color: var( --light-1 );
+	background-color: var( --dark-2 );
+
+	border-radius: 1rem;
+}
+
+#join-now
+{
+	background-color: var( --primary );
+}
+
 
 
 /*
@@ -186,37 +182,37 @@ h1
 {
 	font-size: 2em;
 	font-variation-settings: 'wght' 1000;
-	margin-top: 2rem;
+	margin: 2rem 0;
 }
 
 h2 
 {
 	font-size: 1.75em;
-	margin-top: 1.75rem;
+	margin: 1.75rem 0;
 }
 
 h3 
 {
 	font-size: 1.5em;
-	margin-top: 1.5rem;
+	margin: 1.5rem 0;
 }
 
 h4
 {
 	font-size: 1.25em;
-	margin-top: 1.25rem;
+	margin: 1.25rem 0;
 }
 
 h5
 {
 	font-size: 1em;
-	margin-top: 1rem;
+	margin: 1rem 0;
 }
 
 h6
 {
 	font-size: 0.75em;
-	margin-top: 0.75rem;
+	margin: 0.75rem 0;
 }
 
 p 
@@ -236,16 +232,6 @@ p
 	justify-content: center;
 	align-items: center;
 }
-
-/*.colour-group>.colour:first-child*/
-/*{*/
-	/*border-radius: 1rem 0 0 1rem;*/
-/*}*/
-
-/*.colour-group>.colour:last-child*/
-/*{*/
-	/*border-radius: 0 1rem 1rem 0;*/
-/*}*/
 
 .colour
 {
@@ -362,7 +348,7 @@ input
 	border-radius: 0.5rem;
 }
 
-img
+.clickable-img
 {
 	width: 50%;
 	max-width: 100vw;
