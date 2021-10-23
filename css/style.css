@@ -1,25 +1,3 @@
-/* define colour */ 
-:root
-{
-	--dark-1: #2E3440;
-	--dark-2: #3B4252;
-	--dark-3: #434C5E;
-	--dark-4: #4C566A;
-
-	--light-1: #D8DEE9;
-	--light-2: #E5E9F0;
-	--light-3: #ECEFF4;
-
-	--primary: #5E81AC;
-	--secondary: #81A1C1;
-	--tertiary: #88C0D0;
-	--quaternary: #8FBCBB;
-}
-
-*{
-    font-family: 'Inter', sans-serif;
-}
-
 body 
 {
 	box-sizing: border-box;
