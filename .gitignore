@@ -1,2 +1,3 @@
 # ignore mac system file
 .DS_Store
+.ai
