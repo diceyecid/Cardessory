@@ -102,10 +102,11 @@ code
 
 
 
-/********** header **********/ 
+/********** nav bar **********/ 
 
 header
 {
+	position: sticky;
 	padding: 1rem 1rem;
 
 	display: flex;
