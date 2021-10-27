@@ -1,0 +1,114 @@
+/*
+ * This file defines the default styling for elements
+ */ 
+
+/*********** load font **********/
+
+@font-face
+{
+	font-family: Inter;
+	src: url( '../font/Inter/Inter-VariableFont_slnt,wght.ttf' ) format( 'truetype' );
+}
+
+
+
+/*********** define colours ***********/ 
+
+:root
+{
+	--dark-1: #2E3440;
+	--dark-2: #3B4252;
+	--dark-3: #434C5E;
+	--dark-4: #4C566A;
+
+	--light-1: #D8DEE9;
+	--light-2: #E5E9F0;
+	--light-3: #ECEFF4;
+
+	--primary: #5E81AC;
+	--secondary: #81A1C1;
+	--tertiary: #88C0D0;
+	--quaternary: #8FBCBB;
+}
+
+
+
+/*********** Default styling **********/
+
+*
+{
+	font-family: Inter, sans-serif;
+}
+
+body 
+{
+	box-sizing: border-box;
+	width: 100vw;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: var( --light-3 );
+	color: var( --dark-1 );
+}
+
+h1
+{
+	font-size: 2em;
+	font-variation-settings: 'wght' 1000;
+	margin: 2rem 0;
+}
+
+h2 
+{
+	font-size: 1.75em;
+	margin: 1.75rem 0;
+}
+
+h3 
+{
+	font-size: 1.5em;
+	margin: 1.5rem 0;
+}
+
+h4
+{
+	font-size: 1.25em;
+	margin: 1.25rem 0;
+}
+
+h5
+{
+	font-size: 1em;
+	margin: 1rem 0;
+}
+
+h6
+{
+	font-size: 0.75em;
+	margin: 0.75rem 0;
+}
+
+p 
+{
+	margin-top: 0;
+}
+
+code 
+{
+	padding: 0.5rem 1rem;
+	display: block;
+	background-color: var( --light-1 );
+}
+
+label
+{
+	margin: 0 0.5rem;
+	font-style: italic;
+}
+
+input
+{
+	padding: 0.25rem;
+	border: 1px solid var( --light-1 );
+	border-radius: 0.5rem;
+}
