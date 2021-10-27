@@ -4,7 +4,7 @@
 
 /********** nav bar **********/ 
 
-.nav-bar
+.navbar
 {
 	position: -webkit-sticky; /* Safari */
   	position: sticky;
@@ -21,18 +21,12 @@
 }
 
 /* logo */
-.nav-bar a
-{
-	text-decoration: none;
-	color: var( --dark-1 );
-}
-
-.nav-bar img
+.navbar-logo
 {
 	width: 4rem;
 }
 
-.nav-bar h1
+.navbar-name
 {
 	margin: 0;
 	padding: 0 0.5rem;
@@ -41,12 +35,12 @@
 }
 
 /* nav */
-.nav-bar > nav
+.navbar > nav
 {
 	margin-left: auto;
 }
 
-.nav-bar > nav > a
+.navbar-link
 {
 	text-decoration: none;
 
@@ -54,25 +48,62 @@
 	padding: 1rem;
 
 	color: var( --dark-1 );
-	/*background-color: var( --dark-2 );*/
-
+	background-color: none;
 	border-radius: 0.5rem;
+
+	transition-property: background-color color; 
+	transition-duration: 0.2s;
+}
+
+.navbar-link:hover, .navbar-link:focus
+{
+	background-color: var( --light-1 );
+}
+
+.navbar-link-primary
+{
+	color: var( --light-1 );
+	background-color: var( --primary );
+}
+
+.navbar-link-primary:hover, .navbar-link-primary:focus 
+{
+	color: var( --light-1 );
+	background-color: var( --dark-1 );
 }
 
 
 
 /********** banner **********/ 
 
-/*.banner*/
-/*{			*/
-	/*display: flex;*/
-	/*flex-flow: column wrap;*/
-	/*justify-content: flex-start;*/
-	/*align-items: center;*/
-	
-	/*background-color: var( --quaternary );*/
-/*}*/
+.banner
+{			
+	padding: 5rem 0;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
 
+.banner-primary
+{
+	background-color: var( --primary );
+}
+
+.banner-secondary
+{
+	background-color: var( --secondary );
+}
+
+.banner-tertiary
+{
+	background-color: var( --tertiary );
+}
+
+.banner-title
+{
+	font-variation-settings: 'slnt' -10, 'wght' 800;
+}
 
 
 /********** button **********/
@@ -82,8 +113,8 @@
 	text-decoration: none;
 
 	margin: 0 0.2rem;
-	padding: 1rem;
-	border-radius: 0.5rem;
+	padding: 0.5rem 2rem;
+	border-radius: 0.3rem;
 
 	color: var( --light-1 );
 	background-color: var( --dark-2 );
