@@ -17,7 +17,7 @@
 	align-items: center;
 
 	background-color: var( --light-2 );
-	border: 2px var( --light-1) solid;
+	border-bottom: 2px var( --light-1) solid;
 }
 
 /* logo */
@@ -102,8 +102,23 @@
 
 .banner-title
 {
-	font-variation-settings: 'slnt' -10, 'wght' 800;
+	font-variation-settings: 'slnt' -10, 'wght' 900;
 }
+
+
+
+/********** section **********/ 
+
+.section
+{
+	margin: 2rem 0;
+
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 
 
 /********** button **********/
@@ -112,8 +127,9 @@
 {
 	text-decoration: none;
 
-	margin: 0 0.2rem;
+	margin: 0.2rem;
 	padding: 0.5rem 2rem;
+	border: 0;
 	border-radius: 0.3rem;
 
 	color: var( --light-1 );
