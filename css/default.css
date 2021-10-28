@@ -7,7 +7,7 @@
 @font-face
 {
 	font-family: Inter;
-	src: url( '../font/Inter/Inter-VariableFont_slnt,wght.ttf' ) format( 'truetype' );
+	src: url( '../font/Inter/Inter-VariableFont_slnt,wght.ttf' ) format( 'truetype-variations' );
 }
 
 
@@ -40,6 +40,12 @@
 	font-family: Inter, sans-serif;
 }
 
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
 body 
 {
 	box-sizing: border-box;
@@ -53,44 +59,57 @@ body
 
 h1
 {
-	font-size: 2em;
-	font-variation-settings: 'wght' 1000;
+	font-size: 2rem;
+	font-variation-settings: 'wght' 900;
 	margin: 2rem 0;
 }
 
 h2 
 {
-	font-size: 1.75em;
+	font-size: 1.75rem;
+	font-variation-settings: 'wght' 850;
 	margin: 1.75rem 0;
 }
 
 h3 
 {
-	font-size: 1.5em;
+	font-size: 1.5rem;
+	font-variation-settings: 'wght' 800;
 	margin: 1.5rem 0;
 }
 
 h4
 {
-	font-size: 1.25em;
+	font-size: 1.25rem;
+	font-variation-settings: 'wght' 750;
 	margin: 1.25rem 0;
 }
 
 h5
 {
-	font-size: 1em;
+	font-size: 1rem;
+	font-variation-settings: 'wght' 700;
 	margin: 1rem 0;
 }
 
 h6
 {
-	font-size: 0.75em;
+	font-size: 0.75rem;
+	font-variation-settings: 'wght' 650;
 	margin: 0.75rem 0;
 }
 
 p 
 {
-	margin-top: 0;
+	font-size: 1rem;
+	font-variation-settings: 'wght' 600;
+	margin: 0.5rem 0;
+}
+
+a 
+{
+	text-decoration: none;
+	color: var( --dark-1 );
 }
 
 code 
