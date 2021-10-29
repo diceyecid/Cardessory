@@ -19,6 +19,8 @@
 
 	transition-property: background-color color; 
 	transition-duration: 0.2s;
+
+	cursor: pointer;
 }
 
 .btn:hover, .btn:focus 
