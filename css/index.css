@@ -2,7 +2,16 @@
  * This file defines the detail styling for index.html
  */
 
+.logo-group
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 .media-logo
 {
 	width: 2rem;
+	margin: 0 0.5rem;
 }
