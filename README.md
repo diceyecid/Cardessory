@@ -12,8 +12,8 @@ to ensure our user can stay up-to-date without the effort of gathering informati
 
 ## Website
 
-Please visit [this]() to view the website.
+Please visit [this](https://www.sfu.ca/siat/student_projects/iat339/ross/P2/Cardessory/) to view the website.
 
 ## Reference
 
-Please visit [this]() to view the reference.
+Please visit [this](https://www.sfu.ca/siat/student_projects/iat339/ross/P2/Cardessory/public_html/reference.html) to view the reference.
