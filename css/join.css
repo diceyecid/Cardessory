@@ -1,0 +1,9 @@
+/*
+ * This file contains the detail styling of join.html
+ */ 
+
+/********** feature list **********/ 
+
+.card>ul{ list-style: none; }
+.card>ul>li{ margin: 0.5rem; text-indent: -1rem; }
+.card>ul>li:before{ content: "✓ "; }
