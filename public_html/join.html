@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg" href="./images/logo.svg">
+    <link rel="icon" type="image/svg" href="../images/logo.svg">
 	<link href="../css/main.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
-	<title>Cardessory</title>
+    <link rel="stylesheet" href="../css/custom.css">
+    <title>Cardessory</title>
 </head>
 <body>
-    <header>
-        <a id="logo" href="../index.html">
-            <img src="../images/logo.svg" alt="logo">
-            <h1>Cardessory</h1>
-        </a>
+    <header class="navbar">
+		<a href="./index.html"><img class="navbar-logo" src="../images/logo.svg" alt="logo"></a>
+		<a href="./index.html"><h1 class="navbar-name">Cardessory</h1></a>
 		<nav>
-			<a href="./service.html">Service</a>
-			<a href="./contact.html">Contact</a>
-			<a id="join-now" href="./join.html">Join Now</a>
+            <a class="navbar-link" href="./service.html">Service</a>
+			<a class="navbar-link" href="./contact.html">Contact</a>
+			<a class="navbar-link navbar-link-primary" id="join-now" href="./join.html">Join Now</a>
 		</nav>
 	</header>
 
@@ -27,6 +26,7 @@
         <h2>Join Now</h2>
 
         <p>Shelf - Free</p>
+        <img class="card-icons" src="../images/icon/shelf.png" alt="shelf-icon">
         <ul>
             <li>shelf holds 20 decks</li>
             <li>Newsletter every weekend</li>
