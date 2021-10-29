@@ -34,32 +34,32 @@
 
     <form id="checkout-form" action="#" class="section">
 		<article class="form-input">
-			<label for="first-name">First Name:</label>
-			<input id="first-name" class="input-name" type="text" placeholder="First Name">
+			<label for="first-name">First Name:<span class="mandatory">*</span></label>
+			<input id="first-name" class="input-name" type="text" placeholder="First Name" required aria-required="true" aria-label="Enter First Name">
 		</article>
 		<article class="form-input">
-			<label for="last-name">Last Name:</label>
-			<input id="last-name" class="input-last" type="text" placeholder="Last Name">
+			<label for="last-name">Last Name:<span class="mandatory">*</span></label>
+			<input id="last-name" class="input-last" type="text" placeholder="Last Name" required aria-required="true"aria-label="Enter Last Name">
 		</article>
 		<article class="form-input">
 			<label for="address">Address:</label>
-			<input id="address" class="input-postal" type="text" placeholder="Address">
+			<input id="address" class="input-postal" type="text" placeholder="Address" aria-label="Enter Home Address">
 		</article>
 		<article class="form-input">
 			<label for="city">City:</label>
-			<input id="city" class="input-postal" type="text" placeholder="Postal Code">
+			<input id="city" class="input-postal" type="text" placeholder="Postal Code" aria-label="Enter Postal Code">
 		</article>
 		<article class="form-input">
-			<label for="credit-card">Credit Card Number:</label>
-			<input id="credit-card" class="input-card" type="text" placeholder="16 Digit card">
+			<label for="credit-card">Credit Card Number:<span class="mandatory">*</span></label>
+			<input id="credit-card" class="input-card" type="text" placeholder="16 Digit card" required aria-required="true" aria-label="Enter 16 Digit credit card number">
 		</article>
 		<article class="form-input">
 			<label for="cvv-date">Date:</label>
-			<input id="cvv-date" class="input-cvv" type="text" placeholder=" MM/YY ">
+			<input id="cvv-date" class="input-cvv" type="text" placeholder=" MM/YY " aria-label="Enter credit card expiration date with month / year">
 		</article>
 		<article class="form-input">
 			<label for="cvv">CVV:</label>
-			<input id="cvv" class="input-cvv" type="text" placeholder=" ### ">
+			<input id="cvv" class="input-cvv" type="text" placeholder=" ### " aria-label="Enter credit card CVV">
 		</article>
 		<input class="btn btn-primary" type="submit" value="Submit">
         
