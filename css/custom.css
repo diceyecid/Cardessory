@@ -82,8 +82,8 @@
 	padding: 1rem 1rem;
 
 	display: grid;
-	grid-auto-flow: row;
 	align-items: center;
+
 	/* 
 	display: flex;
 	flex-flow: row wrap;
@@ -119,9 +119,9 @@
 /* nav */
 .navbar > nav
 {
-	margin-left: auto;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	margin: 1rem 0 1rem auto;
+	/*display: grid;*/
+	/*grid-template-columns: 1fr 1fr 1fr;*/
 }
 
 .navbar-link
@@ -156,30 +156,23 @@
 	background-color: var( --dark-1 );
 }
 
-@media( max-width: 38rem )
+@media( min-width: 0 )
 {
-	/* .navbar-logo
-	{
-		width: 2.5rem;
-	}
-
-	.navbar-name
-	{
-		margin: 0;
-		padding: 0 0.5rem;
-		font-size: 1.2rem;
-		font-variation-settings: 'wght' 800;
-	} */
-
-	nav{
-		grid-template-columns: 1fr;
-	}
-
-	.navbar-link{
-		display: block;
-	}
-
+	.navbar{ grid-template-columns: 1fr; }
+	/*.navbar-logo-name{ justify-content: center; }*/
+	.navbar > nav{ margin-left: 0; }
+	.navbar-link{ display: block; text-align: center; }
 }
+
+@media( min-width: 45rem )
+{
+	.navbar{ grid-template-columns: 1fr 1fr; }
+	/*.navbar-logo-name{ justify-content: flex-start; }*/
+	.navbar > nav{ margin-left: auto; }
+	.navbar-link{ display: inline-block; text-align: center; }
+}
+
+
 
 /********** banner **********/ 
 
@@ -286,9 +279,6 @@
 	color: var( --light-1 );
 	background-color: var( --secondary );
 }
-
-
-
 
 
 
