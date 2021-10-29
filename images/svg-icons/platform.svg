@@ -1,1 +1,10 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350"><defs><style>.cls-1{fill:#3b4252;}</style></defs><polygon class="cls-1" points="175.99 184.95 49.05 112.46 175.37 50.82 302.31 123.31 175.99 184.95"/><polygon class="cls-1" points="296.66 178.56 175.58 237.64 53.89 168.16 85.71 152.64 175.58 203.95 264.84 160.4 296.66 178.56"/><polygon class="cls-1" points="314.83 230.53 175.02 298.75 34.5 218.51 71.24 200.59 175.02 259.85 278.1 209.55 314.83 230.53"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350">
+<defs>
+	<style>.cls-1{fill:#D8DEE9;}</style>
+</defs>
+
+<polygon class="cls-1" points="175.99 184.95 49.05 112.46 175.37 50.82 302.31 123.31 175.99 184.95"/>
+<polygon class="cls-1" points="296.66 178.56 175.58 237.64 53.89 168.16 85.71 152.64 175.58 203.95 264.84 160.4 296.66 178.56"/>
+<polygon class="cls-1" points="314.83 230.53 175.02 298.75 34.5 218.51 71.24 200.59 175.02 259.85 278.1 209.55 314.83 230.53"/>
+
+</svg>
