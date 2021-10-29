@@ -75,15 +75,20 @@
 
 .navbar
 {
+	
 	position: -webkit-sticky; /* Safari */
   	position: sticky;
 	top: 0;
 	padding: 1rem 1rem;
 
+	display: grid;
+	grid-auto-flow: row;
+	align-items: center;
+	/* 
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: center; */
 
 	background-color: var( --light-2 );
 	border-bottom: 2px var( --light-1) solid;
@@ -115,6 +120,8 @@
 .navbar > nav
 {
 	margin-left: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .navbar-link
@@ -149,7 +156,30 @@
 	background-color: var( --dark-1 );
 }
 
+@media( max-width: 38rem )
+{
+	/* .navbar-logo
+	{
+		width: 2.5rem;
+	}
 
+	.navbar-name
+	{
+		margin: 0;
+		padding: 0 0.5rem;
+		font-size: 1.2rem;
+		font-variation-settings: 'wght' 800;
+	} */
+
+	nav{
+		grid-template-columns: 1fr;
+	}
+
+	.navbar-link{
+		display: block;
+	}
+
+}
 
 /********** banner **********/ 
 
@@ -276,4 +306,9 @@
 	
 	background-color:  var( --dark-1 );
 	color:  var( --light-3 );
+}
+
+.copyright p{
+	font-size: 0.9rem;
+	font-variation-settings: "wght" 400;
 }
