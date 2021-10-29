@@ -137,17 +137,20 @@
 
 @media( min-width: 0rem )
 {
-	.card-container{ grid-template-columns: 1fr; }
+	.card-container.card-4{ grid-template-columns: 1fr; }
+	.card-container.card-2{ grid-template-columns: 1fr; }
+	.card-container.card-1{ grid-template-columns: 1fr; }
 }
 
 @media( min-width: 38rem )
 {
-	.card-container{ grid-template-columns: 1fr 1fr; }
+	.card-container.card-4{ grid-template-columns: 1fr 1fr; }
+	.card-container.card-2{ grid-template-columns: 1fr 1fr; }
 }
 
 @media( min-width: 75rem )
 {
-	.card-container{ grid-template-columns: 1fr 1fr 1fr 1fr; }
+	.card-container.card-4{ grid-template-columns: 1fr 1fr 1fr 1fr; }
 }
 
 .card
