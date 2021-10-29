@@ -1,0 +1,7 @@
+/*
+ * This file defines the detail styling for reference.html
+ */
+
+.citation > ul{ list-style: none; text-align: left; }
+.citation > ul > li{ margin: 1rem; text-indent: -1rem; }
+.citation > ul > li:before{ content: "† "; }
