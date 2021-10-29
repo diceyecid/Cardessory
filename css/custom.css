@@ -100,6 +100,11 @@
 	background-color: var( --tertiary );
 }
 
+.banner-quaternary
+{
+	background-color: var( --quaternary );
+}
+
 .banner-title
 {
 	font-variation-settings: 'slnt' -10, 'wght' 900;
@@ -213,15 +218,19 @@
 }
 
 
+
 /********** Footer ***********/ 
-footer{
+
+.copyright
+{
+	bottom: 0;
+	padding: 1rem 1rem;
+
 	display: flex;
-	flex-flow: column wrap;
-	justify-content: flex-start;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	align-items: center;
+	
 	background-color:  var( --dark-1 );
-}
-.copyright{
-	margin: 0.9em 0;
 	color:  var( --light-3 );
 }
