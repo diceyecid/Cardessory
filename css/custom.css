@@ -2,6 +2,75 @@
  * This file contained the custom styled classes across the website
  */ 
 
+/********** button **********/
+
+.btn 
+{
+	display: inline-block;
+	text-decoration: none;
+
+	margin: 0.5rem 0;
+	padding: 0.5rem 2rem;
+	border: 0;
+	border-radius: 0.3rem;
+
+	color: var( --light-1 );
+	background-color: var( --dark-2 );
+
+	transition-property: background-color color; 
+	transition-duration: 0.2s;
+}
+
+.btn:hover, .btn:focus 
+{
+	color: var( --dark-1 );
+	background-color: var( --light-1 );
+}
+
+.btn-primary
+{
+	color: var( --light-1 );
+	background-color: var( --primary );
+}
+
+.btn-primary:hover, .btn-primary:focus 
+{
+	color: var( --light-1 );
+	background-color: var( --dark-1 );
+}
+
+.btn-secondary
+{
+	color: var( --light-1 );
+	background-color: var( --secondary );
+}
+
+.btn-secondary:hover, .btn-secondary:focus 
+{
+	color: var( --light-1 );
+	background-color: var( --dark-1 );
+}
+
+
+/********** images ***********/ 
+
+.clickable-img
+{
+	width: 50%;
+	max-width: 100vw;
+	border-radius: 1rem;;
+	border: 2px solid #FFFFFF;
+	transition-property: border;
+	transition-duration: 0.5s;
+}
+
+.clickable-img:hover, .clickable-img:focus
+{
+	border: 2px solid var( --light-3 );
+}
+
+
+
 /********** nav bar **********/ 
 
 .navbar
@@ -163,67 +232,25 @@
 	border-radius: 0.5rem;
 }
 
-
-
-/********** button **********/
-
-.btn 
+.card-icons
 {
-	display: inline-block;
-	text-decoration: none;
-
-	margin: 0.5rem 0;
-	padding: 0.5rem 2rem;
-	border: 0;
-	border-radius: 0.3rem;
-
-	color: var( --light-1 );
-	background-color: var( --dark-2 );
-	
-	transition-property: background-color color; 
-	transition-duration: 0.2s;
+	width: 20%;
 }
 
-.btn:hover, .btn:focus 
-{
-	color: var( --dark-1 );
-	background-color: var( --light-1 );
-}
-
-.btn-primary
+.card-btn
 {
 	color: var( --light-1 );
 	background-color: var( --primary );
 }
 
-.btn-primary:hover, .btn-primary:focus 
+.card-btn:hover, .card-btn:focus 
 {
 	color: var( --light-1 );
-	background-color: var( --dark-1 );
+	background-color: var( --secondary );
 }
 
 
 
-/********** images ***********/ 
-
-.clickable-img
-{
-	width: 50%;
-	max-width: 100vw;
-	border-radius: 1rem;;
-	border: 2px solid #FFFFFF;
-	transition-property: border;
-	transition-duration: 0.5s;
-}
-
-.clickable-img:hover, .clickable-img:focus
-{
-	border: 2px solid var( --light-3 );
-}
-
-.card-icons{
-	width: 20%;
-}
 
 
 
