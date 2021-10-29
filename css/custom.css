@@ -90,6 +90,14 @@
 }
 
 /* logo */
+.navbar-logo-name
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 .navbar-logo
 {
 	width: 4rem;
