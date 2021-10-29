@@ -2,42 +2,29 @@
 
 console.log('check');
 
-var navMenu = document.querySelector('#menu');
-navMenu.classList.add('hidden');
-navMenu.setAttribute('aria-hidden', 'true');
+const hamSrc = './images/svg-icons/hamburger.svg';
+const crossSrc = './images/svg-icons/cross.svg';
 
-var menuToggle = document.createElement('button');
-menuToggle.classList.add('button','menutoggle'); 
-menuToggle.innerHTML = 'Menu ▼';
-menuToggle.setAttribute('id', 'menu-toggle');
-menu.setAttribute('aria-labelledby','menu-toggle');
+var navMenu = document.querySelector('#navmenu');
+let isHidden = navMenu.style.display === 'none' ? true : false;
+navMenu.setAttribute('aria-hidden', String( isHidden ) );
+navMenu.setAttribute('aria-expanded', String( !isHidden ) );
 
-var header = document.querySelector('header');
-header.insertBefore(menuToggle, menu);
-
+var menuToggle = document.querySelector( '#navmenu-toggle' );
+menuToggle.setAttribute( 'src', isHidden ? hamSrc : crossSrc );
 menuToggle.setAttribute('aria-label', 'Main menu');
 menuToggle.setAttribute('aria-controls', 'menu');
-menuToggle.setAttribute('aria-expanded', 'false');
 
+navMenu.setAttribute('aria-labelledby','menu-toggle');
 
 menuToggle.addEventListener('click', 
     function(){
-        console.log('   ');
+        console.log('clicked');
 
-        if (menu.classList.contains('hidden')){
-            console.log('menu is hidden, show the menu');
-            menu.classList.remove('hidden');
-
-            menu.setAttribute('aria-hidden', 'false');
-            menu.setAttribute('aria-expanded', 'true');
-
-        }else{
-            console.log('menu is show, hide the menu');
-            menu.classList.add('hidden');
-
-            menu.setAttribute('aria-hidden', 'true');
-            menu.setAttribute('aria-expanded', 'false');
-
-        }
+		let isHidden = navMenu.style.display === 'none' ? true : false;
+		navMenu.style.display = isHidden ? 'block' : 'none';
+		menuToggle.setAttribute( 'src', isHidden ? hamSrc : crossSrc );
+		navMenu.setAttribute('aria-hidden', String( !isHidden ));
+		navMenu.setAttribute('aria-expanded', String( isHidden ));
     }
 );

@@ -7,25 +7,23 @@
     <link rel="icon" type="image/svg" href="./images/logo.svg">
 	<link rel="stylesheet" href="./css/default.css" >
 	<link rel="stylesheet" href="./css/custom.css" >
-<<<<<<< HEAD
 	<link rel="stylesheet" href="./css/index.css" >
-=======
-	<script src="navbar.js" defer></script>
->>>>>>> 84aeb768b5dcfb02dcb3e959cf4952482e13617a
+	<script src="./js/navbar.js" defer></script>
 	<title>Cardessory</title>
 </head>
 
 <body>
 	<header class="navbar">
-		<a class="navbar-logo-name" href="./index.html">
-			<img class="navbar-logo" src="./images/logo.svg" alt="logo image">
-			<h1 class="navbar-name">Cardessory</h1>
-		</a>
+		<section class="navbar-logo-name-button">
+			<a class="navbar-logo-name" href="./index.html">
+				<img class="navbar-logo" src="./images/logo.svg" alt="logo image">
+				<span class="navbar-name">Cardessory</span>
+			</a>
+			<button id="navmenu-toggle"><img src="./images/svg-icons/hamburger.svg" alt="menu toggle"></button>
+		</section>
 		<!--<a href="./index.html"><img class="navbar-logo" src="./images/logo.svg" alt="logo"></a>-->
 		<!--<a href="./index.html"><h1 class="navbar-name">Cardessory</h1></a>-->
-		<a class="hambuger-button"><img src="./images/svg-icons/hamburger.svg" alt="cross-button"></a>
-		<div class="cross-button"><img src="./images/svg-icons/cross.svg" alt="cross-button"></div>
-		<nav id="menu">
+		<nav id="navmenu">
             <a class="navbar-link" href="./public_html/service.html">Service</a>
 			<a class="navbar-link" href="./public_html/contact.html">Contact</a>
 			<a class="navbar-link navbar-link-primary" href="./public_html/join.html">Join Now</a>
