@@ -1,0 +1,21 @@
+/*
+ * This file contains the detail styling of contact.html
+ */
+
+.contact-input
+{
+	margin: 1rem 0;
+}
+
+#message-label
+{
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+#message
+{
+	width: 80vw;
+	max-width: 30rem;
+	height: 5rem;
+}
