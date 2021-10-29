@@ -157,6 +157,7 @@
 {
 	margin: 1rem;
 	padding: 1rem;
+	align-self: stretch;
 	color: var( --light-3 );
 	background-color: var( --dark-4 );
 	border-radius: 0.5rem;
@@ -223,6 +224,7 @@
 .card-icons{
 	width: 20%;
 }
+
 
 
 /********** Footer ***********/ 
