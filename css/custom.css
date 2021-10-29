@@ -211,3 +211,17 @@
 {
 	border: 2px solid var( --light-3 );
 }
+
+
+/********** Footer ***********/ 
+footer{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: center;
+	background-color:  var( --dark-1 );
+}
+.copyright{
+	margin: 0.9em 0;
+	color:  var( --light-3 );
+}
