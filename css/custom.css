@@ -345,19 +345,18 @@
 	font-variation-settings: "wght" 400;
 }
 
-
-/* checkout menu */
-.form-input{
-	padding: 0.3rem;
-}
-
-
-
-
 /********** misc **********/ 
 
 .hidden
 {
 	display: none;
+}
+
+
+/********** checkout menu  **********/ 
+
+
+.form-input{
+	padding: 0.3rem;
 }
 
