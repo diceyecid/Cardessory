@@ -220,6 +220,9 @@
 	border: 2px solid var( --light-3 );
 }
 
+.card-icons{
+	width: 20%;
+}
 
 
 /********** Footer ***********/ 
