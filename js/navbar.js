@@ -12,8 +12,6 @@ navMenu.setAttribute('aria-expanded', String( !isHidden ) );
 
 var menuToggle = document.querySelector( '#navmenu-toggle' );
 menuToggle.setAttribute( 'src', isHidden ? hamSrc : crossSrc );
-menuToggle.setAttribute('aria-label', 'Main menu');
-menuToggle.setAttribute('aria-controls', 'menu');
 
 navMenu.setAttribute('aria-labelledby','menu-toggle');
 
