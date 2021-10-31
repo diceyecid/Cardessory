@@ -7,7 +7,7 @@
 	display: grid;
 	grid-auto-flow: column;
 	grid-template-columns: auto;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: repeat( 6, 1fr );
 
 	justify-content: center;
 	justify-items: start;
@@ -17,7 +17,7 @@
 {
 	grid-column-start: 1;
 	grid-column-end: span end;
-	grid-row-start: 5;
+	grid-row-start: 6;
 	grid-row-end: span end;
 	justify-self: center;
 }
@@ -29,15 +29,15 @@
 
 @media( min-width: 0 )
 {
-	#checkout-form{ grid-template-rows: repeat( 8, 1fr ); }
-	#form-submit{ grid-row-start: 8; }
+	#checkout-form{ grid-template-rows: repeat( 11, 1fr ); }
+	#form-submit{ grid-row-start: 11; }
 	.form-input > label, .form-input > input{ display: block; }
 }
 
 @media( min-width: 30rem )
 {
-	#checkout-form{ grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
-	#form-submit{ grid-row-start: 5; }
+	#checkout-form{ grid-template-rows: repeat( 6, 1fr ); }
+	#form-submit{ grid-row-start: 6; }
 	.form-input > label, .form-input > input{ display: block; }
 }
 
