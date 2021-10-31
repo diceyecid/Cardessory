@@ -1,20 +1,292 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cardessory Style Guide</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<link rel="stylesheet" href="../css/default.css">
+	<link rel="stylesheet" href="../css/custom.css">
+	<link rel="stylesheet" href="../css/styleguide.css">
+	<script src="../js/navbar.js" defer></script>
+</head>
 
-	<head>
+<body>
+	<header class="navbar">
+		<section class="navbar-logo-name-button">
+			<a class="navbar-logo-name" href="../index.html">
+				<img class="navbar-logo" src="../images/logo.svg" alt="logo image">
+				<span class="navbar-name">Cardessory</span>
+			</a>
+			<button id="navmenu-toggle" aria-label="Menu" aria-controls="navmenu"><img src="../images/svg-icons/hamburger.svg" alt="menu toggle"></button>
+		</section>
+		<!--<a href="./index.html"><img class="navbar-logo" src="./images/logo.svg" alt="logo"></a>-->
+		<!--<a href="./index.html"><h1 class="navbar-name">Cardessory</h1></a>-->
+		<nav id="navmenu">
+ 
+			<a class="navbar-link" href="./service.html">Service</a>
+			<a class="navbar-link" href="./contact.html">Contact</a>
+			<a class="navbar-link navbar-link-primary" href="./join.html">Join Now</a>
+		</nav>
+	</header>
 
-		<meta charset="utf-8">
-		<title>Cardessory Style Guide</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">  
-		<link rel="stylesheet" href="../css/default.css">
-		<link rel="stylesheet" href="../css/custom.css">
-		<link rel="stylesheet" href="../css/styleguide.css">
-		<script src="../js/navbar.js" defer></script>
-		
-	</head>
+	<section class="banner banner-quaternary">
+		<h1 class="banner-title">Style Guide</h1>
+	</section>
 
-	<body>
-		<header class="navbar">
+	<nav class="in-page-nav">        
+		<a href="#typography"><span>Typography</span></a>
+		<a href="#colours"><span>Colours</span></a>
+		<a href="#interactivity"><span>Interactivity</span></a>
+		<a href="#branding"><span>Branding</span></a>
+		<a href="#citations"><span>Citations</span></a>
+	</nav>
+
+
+
+	<!-- TYPOGRAPHY SECTION // -->
+	<section id="typography" class="section">
+		<h2>Typography</h2>
+
+		<h3>Headings</h3>
+
+		<section class="element">
+			<section class="rendered">
+				<h4>Rendered elements:</h4>
+
+				<h1>This is H1</h1>
+				<h2>This is H2</h2>
+				<h3>This is H3</h3>
+				<h4>This is H4</h4>
+				<h5>This is H5</h5>
+				<h6>This is H6</h6>
+			</section>
+
+			<section class="sample">
+				<h4>Sample codes:</h4>
+
+				<code class="code-start">&lt;h1&gt;This is H1&lt;/h1&gt;</code>
+				<code>&lt;h2&gt;This is H2&lt;/h2&gt;</code>
+				<code>&lt;h3&gt;This is H3&lt;/h3&gt;</code>
+				<code>&lt;h4&gt;This is H4&lt;/h4&gt;</code>
+				<code>&lt;h5&gt;This is H5&lt;/h5&gt;</code>
+				<code class="code-end">&lt;h6&gt;This is H6&lt;/h6&gt;</code>
+			</section>
+		</section>
+
+		<h3>Paragraphs</h3>
+
+		<section class="element">
+			<section class="rendered">
+				<h4>Rendered element:</h4>
+				<p>
+					lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna 
+					aliqua. ut enim ad minim veniam, quis nostrud exercitation 
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					duis aute irure dolor in reprehenderit in voluptate velit 
+					esse cillum dolore eu fugiat nulla pariatur. excepteur sint 
+					occaecat cupidatat non proident, sunt in culpa qui officia 
+					deserunt mollit anim id est laborum.
+				</p>
+			</section>
+
+			<section class="sample">
+				<h4>Sample code:</h4>
+
+				<code class="code-start">&lt;p&gt;</code>
+				<code>
+					lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna 
+					aliqua. ut enim ad minim veniam, quis nostrud exercitation 
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					duis aute irure dolor in reprehenderit in voluptate velit 
+					esse cillum dolore eu fugiat nulla pariatur. excepteur sint 
+					occaecat cupidatat non proident, sunt in culpa qui officia 
+					deserunt mollit anim id est laborum.
+				</code>
+				<code class="code-end">&lt;/p&gt;</code>
+			</section>
+		</section>
+
+		<h3>Numbered Lists</h3>
+
+		<section class="element">
+			<section class="rendered">
+				<h4>Rendered element:</h4>
+
+				<ol>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ol>
+			</section>
+			
+			<section class="sample">
+				<h4>Sample code:</h4>
+
+				<code class="code-start">&lt;ol&gt;</code>
+				<code>&lt;li&gt;Item 1&lt;/li&gt;</code>
+				<code>&lt;li&gt;Item 2&lt;/li&gt;</code>
+				<code>&lt;li&gt;Item 3&lt;/li&gt;</code>
+				<code class="code-end">&lt;/ol&gt;</code>
+			</section>
+
+			
+		</section>
+
+	</section>
+	<!-- // TEXT ELEMENTS SECTION -->
+
+
+
+	<!-- COLOURS SECTION // -->
+	<section id="colours" class="section">
+		<h2>Colours</h2>
+
+		<h3>Dark</h3>
+
+		<section class="colour-group">
+			<article id="dark-1" class="colour">
+				<span>#2E3440</span>
+			</article>
+			<article id="dark-2" class="colour">
+				<span>#3B4252</span>
+			</article>
+			<article id="dark-3" class="colour">
+				<span>#434C5E</span>
+			</article>
+			<article id="dark-4" class="colour">
+				<span>#4C566A</span>
+			</article>
+		</section>
+
+		<h3>Light</h3>
+
+		<section class="colour-group">
+			<article id="light-1" class="colour">
+				<span>#D8DEE9</span>
+			</article>
+			<article id="light-2" class="colour">
+				<span>#E5E9F0</span>
+			</article>
+			<article id="light-3" class="colour">
+				<span>#ECEFF4</span>
+			</article>
+		</section>
+
+		<h3>Accent</h3>
+
+		<section class="colour-group">
+			<article id="primary" class="colour">
+				<span>#8FBCBB</span>
+			</article>
+			<article id="secondary" class="colour">
+				<span>#88C0D0</span>
+			</article>
+			<article id="tertiary" class="colour">
+				<span>#81A1C1</span>
+			</article>
+			<article id="quaternary" class="colour">
+				<span>#5E81AC</span>
+			</article>
+		</section>
+	</section>
+	<!-- // COLOURS SECTION -->
+
+
+
+	<!-- INTERACTION SECTION -->
+	<section id="interactivity" class="section">
+		<h2>Interactivity</h2>
+
+		<h3>In-text link</h3>
+
+		<section class="element">
+			<section class="rendered">
+				<h4>Rendered element:</h4>
+				<p>This is an <a class="inline-a" href="#">in-text link</a>.</p>
+			</section>
+
+			<section class="sample">
+				<h4>Sample code:</h4>
+				<code class="code-only">
+					&lt;p&gt;This is an &lt;a class="inline-a" href="#"&gt;in-text link&lt;/a&gt;.&lt;/p&gt;
+				</code>
+			</section>
+		</section>
+
+
+		<h3>Navigation Link</h3>
+
+		<section class="element">
+			<section class="rendered">
+				<h4>Rendered element:</h4>
+				<a class="btn" href="#">Default Button</a>
+			</section>
+
+			<section class="sample">
+				<h4>Sample code:</h4>
+				<code class="code-only">
+					&lt;a href="#" class="btn"&gt;Default Button&lt;/a&gt;
+				</code>
+			</section>
+		</section>
+
+
+		<h3>Text Input Field with Label</h3>
+
+		<section class="element">
+
+			<section class="rendered">
+				<h4>Rendered element:</h4>
+				<label for="text-input">Label</label>
+				<input type="text" placeholder="input">
+			</section>
+
+			<section class="sample">
+				<h4>Sample code:</h4>
+				<code class="code-start">
+					&lt;label for="text-input"&gt;Label&lt;/label&gt;
+				</code>
+				<code class="code-end">
+					&lt;input id="text-input" type="text" placeholder="input"&gt;
+				</code>
+			</section>
+		</section>
+
+
+
+		<h3>Image as a Link</h3>
+		<section class="element">
+
+			<section class="rendered">
+				<h4>Rendered element:</h4>
+				<a href="#">
+					<img class="clickable-img" src="../images/logo.svg" alt="logo">
+				</a>
+			</section>
+
+			<section class="sample">
+				<h4>Sample code:</h4>
+				<code class="code-only">
+					&lt;a href="#"&gt;&lt;img class="clickable-img" src="./images/logo.svg" alt="img"&gt;&lt;/a&gt;
+				</code>
+			</section>
+		</section>
+
+
+	</section>
+	<!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+
+
+	<!-- BRANDING SECTION // -->
+	<section id="branding" class="section">
+		<h2>Branding</h2>
+
+		<header class="navbar navbar-sample">
 			<section class="navbar-logo-name-button">
 				<a class="navbar-logo-name" href="../index.html">
 					<img class="navbar-logo" src="../images/logo.svg" alt="logo image">
@@ -31,285 +303,10 @@
 				<a class="navbar-link navbar-link-primary" href="./join.html">Join Now</a>
 			</nav>
 		</header>
-
-		<section class="head-banner">
-			<h2 id="style-guide">Style Guide</h2>
-			<h1 id="title">Cardessory</h1>
-			<h2 id="subtitle">One place for all your card collecting needs.</h2>
-		</section>
-
-		<nav class="nav">        
-			<a href="#typography"><span>Typography</span></a>
-			<a href="#colours"><span>Colours</span></a>
-			<a href="#interactivity"><span>Interactivity</span></a>
-			<a href="#branding"><span>Branding</span></a>
-			<a href="#citations"><span>Citations</span></a>
-		</nav>
-
-
-
-		<!-- TYPOGRAPHY SECTION // -->
-		<section id="typography" class="section">
-			<h1>Typography</h1>
-
-			<h2>Headings</h2>
-
-			<section class="element">
-
-				<section class="rendered">
-					<h3>Rendered elements:</h3>
-
-					<h1>This is H1</h1>
-					<h2>This is H2</h2>
-					<h3>This is H3</h3>
-					<h4>This is H4</h4>
-					<h5>This is H5</h5>
-					<h6>This is H6</h6>
-				</section>
-
-				<section class="sample">
-					<h3>Sample codes:</h3>
-
-					<code class="code-start">&lt;h1&gt;This is H1&lt;/h1&gt;</code>
-					<code>&lt;h2&gt;This is H2&lt;/h2&gt;</code>
-					<code>&lt;h3&gt;This is H3&lt;/h3&gt;</code>
-					<code>&lt;h4&gt;This is H4&lt;/h4&gt;</code>
-					<code>&lt;h5&gt;This is H5&lt;/h5&gt;</code>
-					<code class="code-end">&lt;h6&gt;This is H6&lt;/h6&gt;</code>
-				</section>
-			</section>
-
-			<h2>Paragraphs</h2>
-
-			<section class="element">
-
-				<section class="rendered">
-					<h3>Rendered element:</h3>
-
-					<p>
-					lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore magna 
-					aliqua. ut enim ad minim veniam, quis nostrud exercitation 
-					ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					duis aute irure dolor in reprehenderit in voluptate velit 
-					esse cillum dolore eu fugiat nulla pariatur. excepteur sint 
-					occaecat cupidatat non proident, sunt in culpa qui officia 
-					deserunt mollit anim id est laborum.
-					</p>
-				</section>
-
-				<section class="sample">
-					<h3>Sample code:</h3>
-
-					<code class="code-start">&lt;p&gt;</code>
-					<code>
-						lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-						sed do eiusmod tempor incididunt ut labore et dolore magna 
-						aliqua. ut enim ad minim veniam, quis nostrud exercitation 
-						ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-						duis aute irure dolor in reprehenderit in voluptate velit 
-						esse cillum dolore eu fugiat nulla pariatur. excepteur sint 
-						occaecat cupidatat non proident, sunt in culpa qui officia 
-						deserunt mollit anim id est laborum.
-					</code>
-					<code class="code-end">&lt;/p&gt;</code>
-				</section>
-
-				
-			</section>
-
-			<h2>Numbered Lists</h2>
-
-			<section class="element">
-				<section class="rendered">
-					<h3>Rendered element:</h3>
-
-					<ol>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-					</ol>
-				</section>
-				
-				<section class="sample">
-					<h3>Sample code:</h3>
-
-					<code class="code-start">&lt;ol&gt;</code>
-					<code>&lt;li&gt;Item 1&lt;/li&gt;</code>
-					<code>&lt;li&gt;Item 2&lt;/li&gt;</code>
-					<code>&lt;li&gt;Item 3&lt;/li&gt;</code>
-					<code class="code-end">&lt;/ol&gt;</code>
-				</section>
-
-				
-			</section>
-
-		</section>
-		<!-- // TEXT ELEMENTS SECTION -->
-
-
-
-		<!-- COLOURS SECTION // -->
-		<section id="colours" class="section">
-			<h1>Colours</h1>
-
-			<h2>Dark</h2>
-
-			<section class="colour-group">
-				<article id="dark-1" class="colour">
-					<span>#2E3440</span>
-				</article>
-				<article id="dark-2" class="colour">
-					<span>#3B4252</span>
-				</article>
-				<article id="dark-3" class="colour">
-					<span>#434C5E</span>
-				</article>
-				<article id="dark-4" class="colour">
-					<span>#4C566A</span>
-				</article>
-			</section>
-
-			<h2>Light</h2>
-
-			<section class="colour-group">
-				<article id="light-1" class="colour">
-					<span>#D8DEE9</span>
-				</article>
-				<article id="light-2" class="colour">
-					<span>#E5E9F0</span>
-				</article>
-				<article id="light-3" class="colour">
-					<span>#ECEFF4</span>
-				</article>
-			</section>
-
-			<h2>Accent</h2>
-
-			<section class="colour-group">
-				<article id="primary" class="colour">
-					<span>#8FBCBB</span>
-				</article>
-				<article id="secondary" class="colour">
-					<span>#88C0D0</span>
-				</article>
-				<article id="tertiary" class="colour">
-					<span>#81A1C1</span>
-				</article>
-				<article id="quaternary" class="colour">
-					<span>#5E81AC</span>
-				</article>
-			</section>
-		</section>
-		<!-- // COLOURS SECTION -->
-
-
-
-		<!-- INTERACTION SECTION -->
-		<section id="interactivity" class="section">
-			<h1>Interactivity</h1>
-
-			<h2>In-text link</h2>
-
-			<section class="element">
-				<section class="rendered">
-
-					<h3>Rendered element:</h3>
-					<p>This is an <a href="#">in-text link</a>.</p>
-				</section>
-
-				<section class="sample">
-					<h3>Sample code:</h3>
-					<code class="code-only">
-						&lt;p&gt;This is an &lt;a href="#"&gt;in-text link&lt;/a&gt;.&lt;/p&gt;
-					</code>
-				</section>
-			</section>
-
-
-			<h2>Navigation Link</h2>
-
-			<section class="element">
-
-				<section class="rendered">
-					<h3>Rendered element:</h3>
-					<a class="button-nav" href="#">Default Button</a>
-				</section>
-
-				<section class="sample">
-					<h3>Sample code:</h3>
-					<code class="code-only">
-						&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;
-					</code>
-				</section>
-			</section>
-
-
-			<h2>Text Input Field with Label</h2>
-
-			<section class="element">
-
-				<section class="rendered">
-					<h3>Rendered element:</h3>
-					<label for="text-input">Label</label>
-					<input id="text-input" type="text" placeholder="input">
-				</section>
-
-				<section class="sample">
-					<h3>Sample code:</h3>
-					<code class="code-start">
-						&lt;label for="text-input"&gt;Label&lt;/label&gt;
-					</code>
-					<code class="code-end">
-						&lt;input id="text-input" type="text" placeholder="input"&gt;
-					</code>
-				</section>
-			</section>
-
-
-
-			<h2>Image as a Link</h2>
-			<section class="element">
-
-				<section class="rendered">
-					<h3>Rendered element:</h3>
-					<a href="#">
-						<img class="clickable-img" src="../images/logo.png" alt="img">
-					</a>
-				</section>
-
-				<section class="sample">
-					<h3>Sample code:</h3>
-					<code class="code-only">
-						&lt;a href="#"&gt;&lt;img src="./images/logo.png" alt="img"&gt;&lt;/a&gt;
-					</code>
-				</section>
-			</section>
-
-
-		</section>
-		<!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-
-
-		<!-- BRANDING SECTION // -->
-		<section id="branding" class="section">
-			<h1>Branding</h1>
-
-			<section class="">
-				<h2>Main Navigation</h2>
-				<nav class="nav">
-					<a href="#"><span>Home</span></a>
-					<a href="#"><span>Services</span></a>
-					<a href="#"><span>Pricing</span></a>
-				</nav>
-			</section>
-			
-			<section class="">
-				<h2>Description</h2>
-				<p>
+		
+		<section class="">
+			<h3>Description</h3>
+			<p>
 				Cardessory is an intuitive and use-friendly web application that 
 				allows card collectors to keep track of their collections and stay
 				up-to-date with the latest price and news. Users will be able to 
@@ -319,96 +316,72 @@
 				their collections. Moreover, we provide the latest community news
 				to ensure our user can stay up-to-date without the effort of
 				gathering information.
-				</p>
-			</section>
-
-			<h2>Services</h2>
-			<section class="service-container">
-
-				<article class="service">
-					<h1>Shelf</h1>
-					<h4>For managing your collection catalogue</h4>
-				</article>
-
-				<article class="service">
-					<h1>Platform</h1>
-					<h4>For trading your cards</h4>
-				</article>
-
-				<article class="service">
-					<h1>Market</h1>
-					<h4>For buying and selling your cards</h4>
-				</article>
-
-				<article class="service">
-					<h1>Newspaper</h1>
-					<h4>For finding the trending information in the community</h4>
-				</article>
-			</section>
-
-			<h2>Subscriptions</h2>
-			<section class="sub-container">
-
-				<article class="sub">
-					<h1>Personal</h1>
-					<h3>$0</h3>
-					<ul>
-						<li>2000 entries limit for Shelf</li>
-						<li>Unlimited posts on Platform</li>
-						<li>Full access to Newspaper</li>
-						<li>Low selling fee on Market</li>
-					</ul>
-				</article>
-				
-				<article class="sub">
-					<h1>Pro</h1>
-					<h3>$10 <span class="per-month">per month</span></h3>
-					<ul>
-						<li>Unlimited entries for Shelf</li>
-						<li>Unlimited posts on Platform</li>
-						<li>Full access to Newspaper</li>
-						<li>No fee on Market</li>
-					</ul>
-				</article>
-			</section>
-
-		</section>
-		<!-- // BRANDING SECTION -->
-
-
-
-		<!--<section class="element">-->
-			<!--<h3>Font</h3>-->
-			<!--<img src="images/inter-font.jpg" alt="inter font" width="100%">-->
-		<!--</section>-->
-
-		<!--<section class="element">-->
-			<!--<h3>Moodboard</h3>-->
-
-			<!--<h4>Home</h4>-->
-			<!--<img src="images/home-page.png" alt="home" width="100%">-->
-
-			<!--<h4>Product</h4>-->
-			<!--<img src="images/product-item.png" alt="product" width="100%">-->
-
-			<!--<h4>Pricing</h4>-->
-			<!--<img src="images/pricing.png" alt="pricing" width="100%">-->
-		<!--</section>-->
-
-
-
-		<section id="citations" class="section">
-			<h1>Citations</h1>
-
-			<ul>
-				<li>Arctic Ice Studio. studio. 2021. <strong></strong>. retrieved from <a href="https://www.nordtheme.com/docs/colors-and-palettes">https://www.nordtheme.com/docs/colors-and-palettes</a></li>
-				<li>Damme et al. Author. 2021. <strong></strong>. retrieved from <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></li>
-				<li>Johan Aakerlund. Designer. 2008. <strong></strong>. retrieved from <a href="https://fonts.google.com/specimen/Comfortaa">https://fonts.google.com/specimen/Comfortaa</a></li>
-			</ul>
-
+			</p>
 		</section>
 
+		<h3>Services</h3>
+		<section class="card-container card-4">
+
+			<article class="card">
+				<h3>Shelf</h3>
+				<p>For managing your collection catalogue</p>
+			</article>
+
+			<article class="card">
+				<h3>Platform</h3>
+				<p>For trading your cards</p>
+			</article>
+
+			<article class="card">
+				<h3>Market</h3>
+				<p>For buying and selling your cards</p>
+			</article>
+
+			<article class="card">
+				<h3>Newspaper</h3>
+				<p>For finding the trending information in the community</p>
+			</article>
+		</section>
+
+		<h3>Subscriptions</h3>
+		<section class="card-container card-2">
+			<article class="card">
+				<h3>Personal</h3>
+				<h4>$0</h4>
+				<ul>
+					<li>2000 entries limit for Shelf</li>
+					<li>Unlimited posts on Platform</li>
+					<li>Full access to Newspaper</li>
+					<li>Low selling fee on Market</li>
+				</ul>
+			</article>
+			
+			<article class="card">
+				<h3>Pro</h3>
+				<h4>$10 <span class="per-month">per month</span></h4>
+				<ul>
+					<li>Unlimited entries for Shelf</li>
+					<li>Unlimited posts on Platform</li>
+					<li>Full access to Newspaper</li>
+					<li>No fee on Market</li>
+				</ul>
+			</article>
+		</section>
+
+	</section>
 
 
-	</body>
+
+	<section id="citations" class="section citation">
+		<h1>Citations</h1>
+
+		<ul>
+			<li>Arctic Ice Studio. studio. 2021. <strong></strong>. retrieved from <a href="https://www.nordtheme.com/docs/colors-and-palettes">https://www.nordtheme.com/docs/colors-and-palettes</a></li>
+			<li>Damme et al. Author. 2021. <strong></strong>. retrieved from <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></li>
+		</ul>
+	</section>
+
+
+
+</body>
 </html>
