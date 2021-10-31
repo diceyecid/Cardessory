@@ -2,7 +2,34 @@
  * This file defines the detail styling of service.html
  */
 
-.card > p
+.card
 {
-	text-align: left;
+	display: grid;
+}
+
+.demo-img
+{
+	height: auto;
+	margin: 1rem;
+
+	align-self: center;
+
+	border-radius: 0.5rem;
+}
+
+@media( min-width: 0rem )
+{
+	.card{ grid-template-columns: 1fr; text-align: center; }
+	.demo-img{ width: 100%; justify-self: center; }
+}
+
+@media( min-width: 40rem )
+{
+	.demo-img{ width: 30rem; }
+}
+
+@media( min-width: 60rem )
+{
+	.card{ grid-template-columns: 1fr 1fr; text-align: left; }
+	.demo-img{ justify-self: end; }
 }
