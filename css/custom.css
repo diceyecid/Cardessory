@@ -301,8 +301,14 @@
 	color: var( --light-3 );
 	background-color: var( --dark-4 );
 	border-radius: 0.5rem;
-
 	box-shadow: 0.5rem 0.5rem 0.5rem rgba( 0, 0, 0, 0.1 );
+
+	transition: transform 0.2s;
+}
+
+.card:hover, .card:focus 
+{
+	transform: scale( 1.05 );
 }
 
 .card-icons
