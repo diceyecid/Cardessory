@@ -16,6 +16,7 @@
 
 	color: var( --light-1 );
 	background-color: var( --dark-2 );
+	box-shadow: 0.1rem 0.1rem 0.1rem rgba( 0, 0, 0, 0.1 );
 
 	transition-property: background-color color; 
 	transition-duration: 0.2s;
@@ -266,6 +267,7 @@
 
 .card-container
 {
+	max-width: 1200px;
 	display: grid;
 	justify-content: center;
 	align-items: center;
@@ -299,6 +301,8 @@
 	color: var( --light-3 );
 	background-color: var( --dark-4 );
 	border-radius: 0.5rem;
+
+	box-shadow: 0.5rem 0.5rem 0.5rem rgba( 0, 0, 0, 0.1 );
 }
 
 .card-icons
