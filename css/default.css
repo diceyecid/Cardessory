@@ -8,6 +8,7 @@
 {
 	font-family: Inter;
 	src: url( '../font/Inter/Inter-VariableFont_slnt,wght.ttf' ) format( 'truetype-variations' );
+	font-display: swap;
 }
 
 
