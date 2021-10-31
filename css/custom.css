@@ -121,10 +121,32 @@
 
 .navbar-name
 {
-	margin: 0;
-	padding: 0 0.5rem;
+	position: relative;
+	margin: 0 0.5rem;
 	font-size: 2rem;
 	font-variation-settings: 'wght' 800;
+
+	overflow: hidden;
+}
+
+.navbar-name::after, .navbar-name::after
+{
+	content: '';
+	position: absolute;
+	left: 1%;
+	bottom: calc( 5% - 0.2rem );
+
+	width: 88%;
+	height: 0.2rem;
+	background-color: var( --dark-1 );
+	opacity: 0;
+	transition: opacity 0.2s, transform 0.2s;
+}
+
+.navbar-name:hover::after
+{
+	opacity: 1;
+	transform: translateY( -0.2rem );
 }
 
 /* nav */
