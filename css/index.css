@@ -8,21 +8,16 @@
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .media-logo
 {
 	width: 2rem;
 	margin: 0 0.5rem;
-}
-
-.logo-group > a:hover, a:focus
-{
 	transition: transform 0.2s;
 }
 
-.logo-group > a:hover, a:focus
+.media-logo:hover, .logo-group > a:focus
 {
 	transform: scale( 120% );
 }
