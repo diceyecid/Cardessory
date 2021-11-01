@@ -12,8 +12,12 @@ to ensure our user can stay up-to-date without the effort of gathering informati
 
 ## Website
 
-Please visit [this](https://www.sfu.ca/siat/student_projects/iat339/ross/P2/Cardessory/) to view the website.
+Please visit [the home page](https://www.sfu.ca/siat/student_projects/iat339/ross/P2/Cardessory/) to view the website.
 
-## Reference
+## Style Guide
 
-Please visit [this](https://www.sfu.ca/siat/student_projects/iat339/ross/P2/Cardessory/public_html/reference.html) to view the reference.
+Please visit [the style guide page](https://www.sfu.ca/siat/student_projects/iat339/ross/P2/Cardessory/public_html/styleguide.html) to view the website.
+
+## Citations
+
+Please visit [the reference page](https://www.sfu.ca/siat/student_projects/iat339/ross/P2/Cardessory/public_html/reference.html) to view the reference.
